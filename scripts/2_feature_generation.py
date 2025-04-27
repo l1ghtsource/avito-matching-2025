@@ -116,6 +116,7 @@ num_cols = [
     'name_en_tokens_len', 'description_en_tokens_len',
     'name_mix_tokens_len', 'description_mix_tokens_len',
     'attr_keys_len', 'attr_vals_len',
+    'name_broken_perc', 'description_broken_perc',
 ]
 
 str_cols = ['name_tokens_w_digits', 'description_tokens_w_digits']
@@ -797,8 +798,8 @@ collection_cols = [
     'units_desc',
     'brands_name',
     'brands_desc',
-    'colors_name',
-    'colors_desc'
+    # 'colors_name',
+    # 'colors_desc'
 ]
 
 for col in token_cols:
@@ -1260,7 +1261,9 @@ to_drop = [
     'colors_name_1', 'colors_name_2',
     'colors_desc_1', 'colors_desc_2',
     'name_tokens_w_digits_1', 'name_tokens_w_digits_2',
-    'concat_keyval_1', 'concat_keyval_2'
+    'concat_keyval_1', 'concat_keyval_2',
+    'name_broken_perc_1', 'name_broken_perc_2',
+    'description_broken_perc_1', 'description_broken_perc_2',
 ]
 
 train_df = train_df.drop(to_drop)
