@@ -1,0 +1,11 @@
+jellyfish==1.2.0
+networkx==3.4.2
+numpy==2.2.5
+polars==1.28.1
+rank_bm25==0.2.2
+rapidfuzz==3.13.0
+rouge==1.0.1
+scikit_learn==1.6.1
+scipy==1.15.2
+textdistance==4.6.3
+tqdm==4.67.1
